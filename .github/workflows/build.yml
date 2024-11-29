@@ -1,12 +1,6 @@
 name: Build YgoMaster
 
 on:
-  push:
-    branches:
-      - main  # Kích hoạt workflow khi có commit vào nhánh main
-  pull_request:
-    branches:
-      - main  # Kích hoạt workflow khi có pull request vào nhánh main
   workflow_dispatch:  # Cho phép chạy workflow thủ công
 
 jobs:
