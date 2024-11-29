@@ -16,7 +16,7 @@ jobs:
     - name: Install .NET Framework Developer Pack
       run: |
         choco install dotnetfx --version=4.8.1
-        choco install visualstudio2019community --package-parameters "--add Microsoft.VisualStudio.Workload.ManagedDesktopBuildTools"
+        choco install visualstudio2019community --package-parameters "--add Microsoft.VisualStudio.Workload.ManagedDesktopBuildTools --add Microsoft.VisualStudio.Workload.NativeDesktop"
         choco install visualstudio2019buildtools --package-parameters "--add Microsoft.VisualStudio.Workload.VCTools"
 
     # Bước 3: Chạy Build.bat
