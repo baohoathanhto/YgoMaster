@@ -7,6 +7,7 @@ on:
   pull_request:
     branches:
       - main  # Kích hoạt workflow khi có pull request vào nhánh main
+  workflow_dispatch:  # Cho phép chạy workflow thủ công
 
 jobs:
   build:
